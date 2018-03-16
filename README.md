@@ -1,5 +1,5 @@
-# [ISCDdocs](http://ISCDdocs.github.io)  
-Contient de la documentation et les codes/sauvegardes pour la salle de visualisation, les serveurs web, le dispositif de visioconférence.
+# ISCDdocs
+Contient de la documentation et les codes/sauvegardes pour la salle de visualisation, les serveurs web, le dispositif de visioconférence... également visible sur [le site associé à ce dépot](http://ISCDdocs.github.io)
 
 ### Salle de visualisation
 Documentation et sauvegardes pour la salle de visualisation de l'ISCD:
