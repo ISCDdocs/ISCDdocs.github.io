@@ -1,5 +1,13 @@
 # Salle de visualisation: Utilisation "quotidienne"
 
+**Sur cette page:**
+* Mise en marche
+* Connexion - types de sessions
+* Logiciels installés
+* Usages de présentations/bureautique
+* Visualisation scientifique
+* Support pour la stéréoscopie 3D
+
 La station de travail de la salle de visualisation est installée sous **Ubuntu** et **Windows**. Il s'agit d'une machine équipée de 128go de RAM, de 32 coeurs et de 2 cartes graphiques Quadro K5200. 
 
 **A noter:** A l'heure actuelle, Windows ne supporte pas l'affichage en 3D (avec les lunettes).
