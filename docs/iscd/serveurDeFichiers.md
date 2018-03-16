@@ -43,10 +43,10 @@ Après avoir rentré ses identifiants dans la fenêtre qui s'est ouverte, la con
 
 Depuis un ordinateur sous MacOS, le serveur de fichiers est visible dans le menu de gauche du **Finder**, menu **Réseau**, sous le nom **ISCDS1517**. En le sélectionnant, un bouton **Connect as** apparait alors:
 
-![connectas](https://user-images.githubusercontent.com/11873158/37298442-98790298-2620-11e8-8897-571bc743adbc.jpg)
+![37298442-98790298-2620-11e8-8897-571bc743adbc](https://user-images.githubusercontent.com/11873158/37532388-2b4327c2-293f-11e8-88ed-37119110d2db.jpg)
 
 Après avoir rentré ses identifiants, la connexion est possible et les différents espaces disponibles dans le Finder.
 
-![ids](https://user-images.githubusercontent.com/11873158/37298444-98cc8b84-2620-11e8-9773-b3c7070f8b9a.jpg)
+![37298444-98cc8b84-2620-11e8-9773-b3c7070f8b9a](https://user-images.githubusercontent.com/11873158/37532390-2b7a454a-293f-11e8-97cb-4957bb78f46e.jpg)
 
-![connected](https://user-images.githubusercontent.com/11873158/37298443-98ab06c6-2620-11e8-87ef-3a69c2407c87.jpg)
+![37298443-98ab06c6-2620-11e8-87ef-3a69c2407c87](https://user-images.githubusercontent.com/11873158/37532389-2b5d6e20-293f-11e8-9ebb-be35c8444626.jpg)
