@@ -24,20 +24,19 @@ Un utilitaire s'ouvre alors, et l'adresse à rentrer est alors: `\\134.157.66.20
 Après avoir rentré ses identifiants, le disque est alors monté, et les différents espaces de stockage deviennent accessibles depuis les **emplacements réseau** de l'explorateur de fichiers.
 ![windowsconnected](https://user-images.githubusercontent.com/11873158/37348785-42809454-26d5-11e8-9ec9-2bb439efb451.jpg)
 
-
 ## Ubuntu
 Le disque partagé est disponible via le navigateur de fichiers **nautilus**, soit par le menu **Network**, dans lequel il est désigné comme **ISCDS1517 (File sharing)**, soit par l'option **Connect to a server**.
 
 Dans ce cas, il faudra se connecter en rentrant lorsque l'adresse du serveur est demandée:
 `smb://134.157.66.205`
 
-![connecttoserver](https://user-images.githubusercontent.com/11873158/37298265-17489490-2620-11e8-8ae6-961a653c3052.jpg)
+![37298265-17489490-2620-11e8-8ae6-961a653c3052](https://user-images.githubusercontent.com/11873158/37532385-2b11d3ca-293f-11e8-8ad3-82a38b88471f.jpg)
 
 Après avoir rentré ses identifiants dans la fenêtre qui s'est ouverte, la connexion est établie et l'ouverture/édition de fichiers rendue possible.
 
-![enterpassword](https://user-images.githubusercontent.com/11873158/37298268-17be7354-2620-11e8-9894-47ef6ddd2be3.jpg)
+![37298268-17be7354-2620-11e8-9894-47ef6ddd2be3](https://user-images.githubusercontent.com/11873158/37532386-2b2a4c8e-293f-11e8-9eee-1d8a774d0968.jpg)
 
-![connected](https://user-images.githubusercontent.com/11873158/37298261-16dd6e04-2620-11e8-85aa-56b6306e85c0.jpg)
+![37298261-16dd6e04-2620-11e8-85aa-56b6306e85c0](https://user-images.githubusercontent.com/11873158/37532384-2af6c99a-293f-11e8-9c93-d456ff215b02.jpg)
 
 
 ## MacOS
