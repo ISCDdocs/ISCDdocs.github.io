@@ -7,6 +7,7 @@ Documentation et sauvegardes pour la salle de visualisation de l'ISCD:
 * Utilisation avec les serveurs de calcul
 * [Administration de la machine](docs/visu/administration.md)
 * [Installation et configuration des projecteurs (démarche + configuration logicielle)](docs/visu/blendingNvidia.md)
+* [Dispositifs matériels de la salle](docs/visu/dispositifs.md)
 
 ### Serveurs web
 * [iscd.upmc.fr](http://iscd.upmc.fr)
