@@ -1,4 +1,4 @@
-#Applications 3D et autres pages
+# Applications 3D et autres pages html
 Il est possible d'héberger d'autres pages ou services sur le site iscd.upmc.fr.
 Cependant, pour héberger un serveur avec un service associé (gitlab, comex, wordpress de test...), le mieux est de encore de créer une machine virtuelle via proxmox (voir avec les admin sys) et de lui assigner une IP fixe afin de pouvoir s'y connecter depuis l'extérieur.
 
