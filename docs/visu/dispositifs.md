@@ -6,12 +6,16 @@
 * 4 - Caméras infrarouges
 * 5 - Souris 3D
 
-## 1 - Stéréoscopie / 3D
+## 1 - Projecteurs
 
-## 2 - Kinect
+## 2 - Stéréoscopie / 3D
 
-## 3 - LeapMotion
+## 3 - Kinect
 
-## 4 - Caméras infrarouge
+## 4 - LeapMotion
 
-## 5 - Souris 3D
+## 5 - Caméras infrarouge
+
+## 6 - Souris 3D
+
+## 7 - Tablette tactile
