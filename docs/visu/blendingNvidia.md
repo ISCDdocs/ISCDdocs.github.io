@@ -10,7 +10,14 @@ Les codes présents dans le [dépot github]() prennent ce nombre en compte, mais
 
 Pour configurer les projecteurs sous ubuntu, la première étape est d'installer une version récente des pilotes nvidia (à partir de la version 390.12, les pilotes prennent en compte le blending + stéréo 3D, ce qui n'était pas possible avant). 
 
-#### 1 - Installation des pilotes
+#### 1 - Mise en place des écrans
+Plusieurs possibilités sont offertes pour disposer correctement les écrans. Il reste à déterminer celle qui est la bonne:
+* /etc/X11/xorg.conf
+* nvidia-settings
+* script randr au démarrage (similaire à )
+* fichier monitors.xml
+
+#### 2 - Installation des pilotes
 Depuis la page [https://doc.ubuntu-fr.org/nvidia](https://doc.ubuntu-fr.org/nvidia)
 ```
 sudo add-apt-repository ppa:graphics-drivers/ppa 
@@ -21,14 +28,14 @@ sudo reboot
 ```
 **Note:** faire en sorte d'avoir au moins la version 390.12!
 
-#### 2 - Téléchargement de nvidia-settings
+#### 3 - Téléchargement de nvidia-settings
 L'application **nvidia-settings** est soit installée avec les pilotes (vérifier), soit à installer par les paquets.
 
 Dans les deux cas, il faudra télécharger les sources de l'application afin de bénéficier de la librairie NVAPI, permettant de communiquer en C avec le pilote nvidia.
 
 Le téléchargement se fait à [cette page](https://github.com/NVIDIA/nvidia-settings/releases). Choisir la version correspondant au pilote utilisé.
 
-#### 3 - Compilation de l'application de blending
+#### 4 - Compilation de l'application de blending
 Une fois les sources de nvidia-settings téléchargées et extraites (dans **/opt** de préférence), il faudra rajouter le fichier dans le répertoire **samples**, et modifier le Makefile du répertoire **samples** pour prendre en compte le nouveau fichier (à l'image de )
 
 ## Windows
