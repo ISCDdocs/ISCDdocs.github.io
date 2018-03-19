@@ -14,8 +14,8 @@ Pour configurer les projecteurs sous ubuntu, la première étape est d'installer
 Plusieurs possibilités sont offertes pour disposer correctement les écrans. Il reste à déterminer celle qui est la bonne:
 * /etc/X11/xorg.conf
 * nvidia-settings
-* script randr au démarrage (similaire à )
-* fichier monitors.xml
+* script randr au démarrage (similaire à [ce script](https://github.com/ISCDdocs/blendingNvidia/blob/linux/randr.sh))
+* [fichier monitors.xml](https://github.com/ISCDdocs/blendingNvidia/blob/linux/monitors.xml)
 
 #### 2 - Installation des pilotes
 Depuis la page [https://doc.ubuntu-fr.org/nvidia](https://doc.ubuntu-fr.org/nvidia)
@@ -36,6 +36,6 @@ Dans les deux cas, il faudra télécharger les sources de l'application afin de 
 Le téléchargement se fait à [cette page](https://github.com/NVIDIA/nvidia-settings/releases). Choisir la version correspondant au pilote utilisé.
 
 #### 4 - Compilation de l'application de blending
-Une fois les sources de nvidia-settings téléchargées et extraites (dans **/opt** de préférence), il faudra rajouter le fichier dans le répertoire **samples**, et modifier le Makefile du répertoire **samples** pour prendre en compte le nouveau fichier (à l'image de )
+Une fois les sources de nvidia-settings téléchargées et extraites (dans **/opt** de préférence), il faudra rajouter le fichier dans le répertoire **samples**, et modifier le Makefile du répertoire **samples** pour prendre en compte le nouveau fichier (à l'image de [ce Makefile](https://github.com/ISCDdocs/blendingNvidia/blob/linux/Makefile))
 
-## Windows
+## Windows 
