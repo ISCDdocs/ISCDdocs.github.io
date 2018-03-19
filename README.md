@@ -17,7 +17,7 @@ Documentation et sauvegardes pour la salle de visualisation de l'ISCD:
   * Applications 3D associées
 * [hpcave.upmc.fr](http://hpcave.upmc.fr)
   * Utilisation "quotidienne"
-  * Statistiques d'utilisation des serveurs
+  * [Statistiques d'utilisation des serveurs](docs/hpcave/statistics.md)
   
 ### Dispositifs de l'ISCD
 * [Serveur de fichiers](docs/iscd/serveurDeFichiers.md)
