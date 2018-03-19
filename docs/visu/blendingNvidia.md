@@ -42,6 +42,11 @@ La compilation se lance en tapant la commande `make` depuis le répertoire racin
 
 Ne reste plus qu'à créer un lien symbolique vers ce fichier depuis /usr/local/bin et éventuellement à l'ajouter dans les programmes lancés au démarrage, ce qui dépend de l'environnement de bureau utilisé.
 
+#### 5 - Le problème Xinerama
+Xinerama permet facilement d'avoir accès à un mode "plein écran" sur les deux projecteurs, mais peut perturber les performances de certains logiciels, voire empêcher le fonctionnement d'autres logiciels (Unreal Engine par exemple).
+
+Pour utiliser des logiciels ayant un problême avec Xinerama, il faut désactiver ce dernier dans **/etc/X11/xorg.conf**, et redémarrer lightdm avec la commande `sudo service lightdm restart`. Ce point est gênant et reste à régler, car ce mode de fonctionnement est loin d'être évident, et ne permet pas d'utiliser le combo écran DELL + projecteurs de manière intuitive...
+
 ## Windows 
 
 #### 1 - Téléchargement des pilotes
