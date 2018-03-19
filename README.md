@@ -14,7 +14,7 @@ Documentation et sauvegardes pour la salle de visualisation de l'ISCD:
   * Utilisation "quotidienne" du site
   * [Thème wordpress](docs/iscdupmc/theme.md)
   * Migration / réinstallation
-  * Applications 3D associées
+  * [Applications 3D associées](docs/iscdupmc/applis3D.md)
 * [hpcave.upmc.fr](http://hpcave.upmc.fr)
   * Utilisation "quotidienne"
   * [Statistiques d'utilisation des serveurs](docs/hpcave/statistics.md)
