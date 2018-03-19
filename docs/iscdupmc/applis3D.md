@@ -17,7 +17,7 @@ Un de ces cas d'application peut être le deploiement d'applications [blend4web]
 
 **Resources**:
 * [Documentation du processus de développement dans blend4web](https://www.blend4web.com/doc/en/developers.html)
-* Documentation du [Project Manager](https://www.blend4web.com/doc/en/project_manager.html)).
+* Documentation du [Project Manager](https://www.blend4web.com/doc/en/project_manager.html).
 
 Des exemples de telles applications (peut être encore en développement) sont:
 * [Visualisation de fichiers .mesh en ligne](http://iscd.upmc.fr/medit)
