@@ -2,7 +2,7 @@
 **Sur cette page:**
 * Les PCs/ordinateurs de l'ISCD
 * Le wifi
-* La connectivité ethernet
+* Ethernet et IP fixes
 
 ## 1 - PCs à l'ISCD
 En plus des ordinateurs portables des membres de l'ISCD, plusieurs ordinateurs fixes (à performances variables) sont disponibles à l'ISCD, et dédiés à différents usages:
@@ -37,5 +37,7 @@ Le débit est assez bon, mais des problèmes peuvent survenir lorsque de nombreu
 #### eduroam
 Le mieux est d'utiliser sur le campus, et dans les locaux de l'ISCD, le wifi **eduroam** qui fonctionne désormais très bien.
 
-## 3 - Ethernet
+## 3 - Ethernet et IP fixes
 De nombreuses prises sont disponibles dans les locaux, mais toutes ne sont pas activées. Si la connexion échoue, il faut ouvrir un ticket sur [la hotline de la DSI](https://hotline.sorbonne-universite.fr/), catégorie __FACULTE DES SCIENCES ET INGENIERIE -> Réseau__, en spécifiant le numéro de la prise incriminée (de la forme ROT33 22#012).
+
+De plus, en fixant son adresse IP (dépend de l'OS utilisé), il est possible de demander l'ouverture de certains ports afin de pouvoir par exemple se connecter en ssh depuis l'extérieur du campus, ou utiliser un ordinateur comme serveur web.
