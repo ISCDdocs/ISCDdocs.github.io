@@ -6,6 +6,7 @@ Documentation et sauvegardes pour la salle de visualisation de l'ISCD:
 * [Utilisation "quotidienne"](docs/visu/usageQuotidien.md)
 * Utilisation avec les serveurs de calcul
 * [Administration de la machine](docs/visu/administration.md)
+* [Sauvegarde](docs/visu/sauvegarde.md)
 * [Installation et configuration des projecteurs (démarche + configuration logicielle)](docs/visu/blendingNvidia.md)
 * [Dispositifs matériels de la salle](docs/visu/dispositifs.md)
 
@@ -22,4 +23,4 @@ Documentation et sauvegardes pour la salle de visualisation de l'ISCD:
 ### Dispositifs de l'ISCD
 * [Serveur de fichiers](docs/iscd/serveurDeFichiers.md)
 * Visioconférence et projection de vidéos
-* PCs, wifi et prises ethernet
+* [PCs, wifi et prises ethernet](docs/iscd/ordinateursEtInternet.md)
