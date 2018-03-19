@@ -12,7 +12,7 @@ Documentation et sauvegardes pour la salle de visualisation de l'ISCD:
 ### Serveurs web
 * [iscd.upmc.fr](http://iscd.upmc.fr)
   * Utilisation "quotidienne" du site
-  * Thème wordpress
+  * [Thème wordpress](docs/iscdupmc/theme.md)
   * Migration / réinstallation
   * Applications 3D associées
 * [hpcave.upmc.fr](http://hpcave.upmc.fr)
