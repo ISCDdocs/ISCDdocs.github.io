@@ -36,6 +36,31 @@ Dans les deux cas, il faudra télécharger les sources de l'application afin de 
 Le téléchargement se fait à [cette page](https://github.com/NVIDIA/nvidia-settings/releases). Choisir la version correspondant au pilote utilisé.
 
 #### 4 - Compilation de l'application de blending
-Une fois les sources de nvidia-settings téléchargées et extraites (dans **/opt** de préférence), il faudra rajouter le fichier dans le répertoire **samples**, et modifier le Makefile du répertoire **samples** pour prendre en compte le nouveau fichier (à l'image de [ce Makefile](https://github.com/ISCDdocs/blendingNvidia/blob/linux/Makefile))
+Une fois les sources de nvidia-settings téléchargées et extraites (dans **/opt** de préférence), il faudra rajouter le fichier  [nv-control-warpblend-own.c](https://github.com/ISCDdocs/blendingNvidia/blob/linux/nv-control-warpblend-own.c) dans le répertoire **samples**, et modifier le Makefile du répertoire **samples** pour prendre en compte le nouveau fichier (à l'image de [ce Makefile](https://github.com/ISCDdocs/blendingNvidia/blob/linux/Makefile)).
+
+La compilation se lance en tapant la commande `make` depuis le répertoire racine de nvidia-settings, et le binaire effectuant le blending a ainsi été créé.
+
+Ne reste plus qu'à créer un lien symbolique vers ce fichier depuis /usr/local/bin et éventuellement à l'ajouter dans les programmes lancés au démarrage, ce qui dépend de l'environnement de bureau utilisé.
 
 ## Windows 
+
+#### 1 - Téléchargement des pilotes
+Le téléchargement et l'installation des pilotes nvidia se fait sur windows depuis la [page de téléchargement de Nvidia](http://www.nvidia.fr/Download/index.aspx?lang=fr).
+
+#### 2 - Configuration des écrans
+Une fois l'installation des pilotes effectuée, les écrans se configurent avec l'application NView, accessible avec un clic droit sur le bureau.
+
+#### 3 - Installation du SDK NVAPI
+Le téléchargement de NVAPI se fait depuis [cette page](https://developer.nvidia.com/nvapi). Il faut pour cela se créer un compte développeur sur nvidia.com.
+
+#### 4 - Téléchargement et compilation du code de blending
+Le code de blending pour windows (inspiré du [dépot d'errollw](https://github.com/errollw/Warp-and-Blend-Quadros)) est disponible dans [la branche "window" du dépot github](https://github.com/ISCDdocs/blendingNvidia/tree/window). Après avoir téléchargé et décompressé le contenu de la branche **window** dans un dossier (par exemple dans C://Programmes), il faut copier l'ensemble des fichiers du SDK Nvidia dans le dossier **include**, afin de prendre en compte une version valide de la librairie NVAPI.
+
+Installer de quoi compiler sous windows.
+
+La compilation se fait alors en ligne de commande, en ouvrant un Powershell (Windows + X -> Console):
+```
+gcc blending.cpp -link nvapi.lib ...
+```
+
+Un éxécutable est alors généré, qui peut être copié dans un autre dossier du PC.
