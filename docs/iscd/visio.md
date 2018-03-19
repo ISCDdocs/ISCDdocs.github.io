@@ -14,19 +14,23 @@ Il suffit pour cela de connecter son ordinateur à l'entrée HDMI située sous l
 **Note:** La connexion est uniquement possible en HDMI à l'heure actuelle. Installer un cable VGA.
 
 ## Visioconférence
+
 #### via Renavisio (RENATER)
+
 ###### Création ou réservation d'une conférence
 Pour réaliser une visioconférence via le dispositif Polycom, il faut passer par le système [RENAvisio](https://renavisio.renater.fr/) de [RENATER](https://www.renater.fr/):
 * Se rendre sur [https://renavisio.renater.fr/](https://renavisio.renater.fr/)
 * Se connecter avec ses identifiants Sorbonne Université
 * Cliquer sur **Créer une conférence instantannée** ou **Planifier une nouvelle conférence** selon le besoin.
 * Partager les informations de connexion aux autres intervenants
+
 ###### Connexion à la conférence depuis le dispositif
 * Vérifier que le boitier est sous tension (voyant bleu allumé)
 * Allumer la télévision, et choisir la source correspondant au boitier Polycom (HDMI 1 ou 2) avec la télécommande Sony.
 * L'écran d'accueil Polycom devrait s'afficher.
 * A l'aide de la télécommande Polycom (dont la batterie accessible par le bas de la télécommande se charge par USB à l'arrière du boitier Polycom), naviguer sur **appeler**.
 * Rentrer les informations de connexion (I.P.)
+
 ###### Connexion à la conférence pour les invités
 Pour qu'un invité puisse accéder au service, il faut installer...
 
