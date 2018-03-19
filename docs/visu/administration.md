@@ -44,7 +44,4 @@ Par défaut, les utilisateurs ne sont pas administrateurs, et il faudra donc se 
 
 ## Sauvegarde et restauration
 
-A terme, il ne faudrait "que":
-* Sauvegarder les fichiers de configuration divers, et faire des scripts d'installation.
-* Sauvegarder une liste des logiciels (éventuellement dans un script?) pour pouvoir réinstaller après.
-* Sauvegarder les principales démos, sur le serveur de partage de fichiers par exemple.
+Cf. [page dédiée](sauvegarde.md)
