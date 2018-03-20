@@ -17,3 +17,5 @@ Peu de modifications ont été apportées dans le thème:
 * **scripts/***: les fichiers javascript permettant de modifier le comportement de certains éléments du site (toggle de paragraphes, changement des headers)
 * **header.php**: les scripts à utiliser sur la page sont ajoutés sous la section __do_action( 'education_base_action_before_head' );__
 
+### 3 - statistiques
+A noter que pour réincorporer les [statistiques d'utilisation des serveurs](http://hpcave.upmc.fr/index.php/resources/status/), il faudra suivre les [instructions dédiées](statistics.md)
