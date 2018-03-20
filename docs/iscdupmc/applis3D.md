@@ -20,7 +20,7 @@ Un de ces cas d'application peut être le deploiement d'applications [blend4web]
 * Documentation du [Project Manager](https://www.blend4web.com/doc/en/project_manager.html).
 
 Des exemples de telles applications (peut être encore en développement) sont:
-* [Visualisation de fichiers .mesh en ligne](http://iscd.upmc.fr/medit)
+* [Visualisation de fichiers .mesh en ligne](http://iscd.upmc.fr/medit), dont le dépôt github est visible [ici](https://github.com/ISCDdocs/onlineMeshViewer)
 * [Théâtre d'orange interactif](http://iscd.upmc.fr/orange)
 * [Ebauche de validation pour la reconstruction faciale](http://iscd.upmc.fr/facile)
 
