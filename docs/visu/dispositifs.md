@@ -30,7 +30,9 @@ La stéréoscopie est assez dure à configurer du point de vue logiciel (cf [con
 ![projodroit](https://user-images.githubusercontent.com/11873158/37649253-7d91c23c-2c31-11e8-8dba-3971f0c32509.jpg)
 
 ## 3 - Kinect
-Pour 
+
+* [Installation sous linux](https://fredfire1.wordpress.com/2016/09/23/install-and-setup-kinect-xbox-360-1473-debian-ubuntu-64bit/)
+* Windows: MotionBuilder - Kinect SDk 1.8 -> Motion capture
 
 ## 4 - LeapMotion
 
