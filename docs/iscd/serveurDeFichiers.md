@@ -1,4 +1,4 @@
-Un serveur de fichiers (d'utilisation similaire à Dropbox ou Google Drive) est disponible à l'ISCD à l'adresse IP **134.157.66.205**.
+Un serveur de fichiers (d'utilisation similaire à Dropbox ou Google Drive) est disponible à l'ISCD à l'adresse IP **134.157.66.224**.
 
 
 # Les différents espaces de stockage
@@ -10,14 +10,17 @@ Une fois connecté, différents espaces de stockage sont accessibles, les princi
 # Connexion au serveur de fichier
 Bien que la connexion soit possible via ftp (pour une sauvegarde automatique, un accès via des scripts ou pour utiliser un logiciel similaire à Filezilla par exemple), la méthode recommandée est de se connecter via l'utilitaire natif de son O.S:
 
-## Windows 10
+## 1. Interface web
+Une interface est disponible à l'adresse [https://iscd1517quickconnect.fr1.quickconnect.to/](https://iscd1517quickconnect.fr1.quickconnect.to/). Son utilisation est relativement limitée (pas de modifications possibles sur les fichiers), et il est donc préférable d'utiliser les versions "natives" des systèmes d'exploitation, présentées après.
+
+## 2. Windows 10
 Depuis l'explorateur de fichiers windows, cliquer sur **ce PC** dans le menu de gauche.
 
 Dans l'onglet **Ordinateur**, sélectionner **Ajouter un emplacement réseau**. 
 
 ![windowsconnect](https://user-images.githubusercontent.com/11873158/37348988-b0f094c0-26d5-11e8-9664-423967ed86fb.jpg)
 
-Un utilitaire s'ouvre alors, et l'adresse à rentrer est alors: `\\134.157.66.205\home`.
+Un utilitaire s'ouvre alors, et l'adresse à rentrer est alors: `\\134.157.66.224\home`.
 
 ![windowsadress](https://user-images.githubusercontent.com/11873158/37348987-b0d7a816-26d5-11e8-853a-b488b4932248.jpg)
 
@@ -28,7 +31,7 @@ Après avoir rentré ses identifiants, le disque est alors monté, et les diffé
 Le disque partagé est disponible via le navigateur de fichiers **nautilus**, soit par le menu **Network**, dans lequel il est désigné comme **ISCDS1517 (File sharing)**, soit par l'option **Connect to a server**.
 
 Dans ce cas, il faudra se connecter en rentrant lorsque l'adresse du serveur est demandée:
-`smb://134.157.66.205`
+`smb://134.157.66.224`
 
 ![37298265-17489490-2620-11e8-8ae6-961a653c3052](https://user-images.githubusercontent.com/11873158/37532385-2b11d3ca-293f-11e8-8ad3-82a38b88471f.jpg)
 
