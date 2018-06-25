@@ -8,6 +8,13 @@ git clone https://github.com/ISCDdocs/wordpressISCD.git ISCD
 ```
 Le thème apparaitra alors dans le menu Apparence->Thèmes du portail admin du site. Il suffit alors de l'activer pour enregistrer les modifications.
 
+En cas de réinstallation, deux étapes supplémentaires sont nécessaires:
+1. Grâce au plugin "better search and replace", rechercher le nom de l'extension de l'ancien domaine, et le remplacer par le nouveau. Normalement, peu de références y seront faites, mais mieux vaut vérifier cette étape.
+2. Modifier dans le fichier [style.css](https://github.com/ISCDdocs/wordpressISCD/blob/master/style.css), aux alentours de la ligne 160, les identifiants de "menu-item-*", pour les faire correspondre à ceux de la page, modifiés par wordpress. Pour les connaitre, utiliser la fonction "inspecteur" du navigateur, permettant de connaitre les identifiants du menu:
+<p align="center">
+<img src="https://user-images.githubusercontent.com/11873158/41841712-4bc3030e-7869-11e8-910c-2e7be3229e6c.png"/>
+</p>
+
 ## 2 - Développement
 Le thème est développé "from scratch", c'est à dire qu'il ne s'agit pas d'un thème enfant au vu de wordpress, mais d'un thème indépendant. Toutes les pages sont donc gérées par l'ensemble des fichiers présents dans le dépot.
 
