@@ -43,7 +43,7 @@ Pour le partage de bureau, deux possibilités sont offertes et faciles à utilis
 * **Chrome remote desktop**, fonctionnant avec le navigateur google chrome, permet également la prise de contrôle à distance, mais se désactive au bout de 20 minutes environ. Pour une présentation dans la salle de visualisation, il faudra par exemple se déplacer vers l'ordinateur ciblé régulièrement...
 
 ## Visualisation scientifique
-Divers logiciels de visualisation sont installés sur la station de travail, parmi lesquels **Visit** et **Paraview** qui sont connectés aux machines de calcul, et permettent donc de visualiser des données stockées sur les serveurs.
+Divers logiciels de visualisation sont installés sur la station de travail, parmi lesquels **Visit** et **Paraview** qui sont connectés aux machines de calcul, et permettent donc de visualiser des données stockées sur les serveurs. Voir la [page dédiée](/docs/visu/mesuVisu.md) pour plus d'informations.
 
 ## Stéréoscopie 3D
 La salle de visualisation est équipée de lunettes 3D actives. Le support pour la 3D n'est pas automatique dans tous les logiciels, mais voici quelques logiciels la supportant:
