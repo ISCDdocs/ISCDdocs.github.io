@@ -12,7 +12,7 @@ Les "frameworks graphiques" quant à eux permettront des rendus moins poussés g
 
 ## 1 - Moteurs de jeu vidéo
 
-Les "leaders" sont Unity3D et Unreal Engine, qui sont des moteurs standards dans le jeu vidéo, et fonctionnent sur de nombreuses plateformes (Unreal étant encore assez instable sur linux). Les deux moteurs sont finalement assez équivalents, et le choix entre l'un ou l'autre pour une application développée de zéro se fera en fonction de critères assez arbitraires:
+Les "leaders" sont [Unity3D](https://unity3d.com/) et [Unreal Engine](https://www.unrealengine.com/en-US/what-is-unreal-engine-4), qui sont des moteurs standards dans le jeu vidéo, et fonctionnent sur de nombreuses plateformes (Unreal étant encore assez instable sur linux). Les deux moteurs sont finalement assez équivalents, et le choix entre l'un ou l'autre pour une application développée de zéro se fera en fonction de critères assez arbitraires:
 
 Unreal dispose de fonctionnalités graphiques plus développées intégrées par défaut, alors qu'il faudra souvent installer des plugins extérieurs pour Unity. L'API d'unreal est accessible en C++, celle d'Unity en C#. Unity est aussi en général légèrement plus simple à utiliser, et donne accès à de très bonnes fonctionnalités d'import/export nativement (fichiers blender directement copiés dans le répertoire du projet par exemple...).
 
@@ -32,10 +32,10 @@ Parmi ces frameworks, deux catégories se distinguent:
 ### 2.1 - Frameworks OpenGL
 
 #### vtk
-[vtk](https://www.vtk.org/) (sur lequel est basé le logiciel Paraview) est la solution se prétant le mieux (et presque exclusivement) au traitement de données scientifiques. En Python ou C++ par exemple, il est assez facile de charger un résultat de simulation, et de lui appliquer une série de filtres permettant des opérations comme des coupes, tracés de streamlines, visualisation de vecteurs en 3D... en quelques lignes de code. De nombreux exemples sont également disponibles.
+[vtk](https://www.vtk.org/) (sur lequel est basé le logiciel [Paraview](https://www.paraview.org/)) est la solution se prétant le mieux (et presque exclusivement) au traitement de données scientifiques. En Python ou C++ par exemple, il est assez facile de charger un résultat de simulation, et de lui appliquer une série de filtres permettant des opérations comme des coupes, tracés de streamlines, visualisation de vecteurs en 3D... en quelques lignes de code. De [nombreux exemples](https://lorensen.github.io/VTKExamples/site/) sont également disponibles.
 
 #### OpenFrameworks
-[OpenFrameworks](https://openframeworks.cc/) est un ensemble de librairies C++ dédié aux applications "créatives", et permet facilement d'interfacer via son API de nombreuses librairies (assimp pour le chargement d'objets, OpenCV pour l'analyse d'images, librairies gérant les kinect comme capteur de mouvement, bullet pour la physique en temps réel...) dans un même programme, tout en pouvant intégrer des codes développés en dehors de ce framework. Très utile pour éviter des étapes fastidieuses de compilation par exemple. Les performances 3D sont de plus très bonnes, et une [bonne docmentation](https://openframeworks.cc/learning/) ainsi que de [nombreux exemples](https://github.com/openframeworks/openFrameworks/tree/master/examples) sont disponibles, ainsi qu'un système d'[addons](https://openframeworks.cc/learning/01_basics/how_to_add_addon_to_project/), permettant soit d'intégrer des fonctionnalités extérieures dans son projet, soit de packager les fonctionnalités développées.
+[OpenFrameworks](https://openframeworks.cc/) est un ensemble de librairies C++ dédié aux applications "créatives", et permet facilement d'interfacer via son API de nombreuses librairies ([assimp](https://github.com/assimp/assimp) pour le chargement d'objets, [OpenCV](https://opencv.org/) pour l'analyse d'images, librairies gérant les kinect comme capteur de mouvement, [bullet](http://bulletphysics.org/wordpress/) pour la physique en temps réel...) dans un même programme, tout en pouvant intégrer des codes développés en dehors de ce framework. Très utile pour éviter des étapes fastidieuses de compilation par exemple. Les performances 3D sont de plus très bonnes, et une [bonne docmentation](https://openframeworks.cc/learning/) ainsi que de [nombreux exemples](https://github.com/openframeworks/openFrameworks/tree/master/examples) sont disponibles, ainsi qu'un système d'[addons](https://openframeworks.cc/learning/01_basics/how_to_add_addon_to_project/), permettant soit d'intégrer des fonctionnalités extérieures dans son projet, soit de packager les fonctionnalités développées.
 
 #### Processing
 [Processing](https://processing.org/) est à la fois un logiciel est un langage de programmation basé sur Java, facile à apprendre, et premettant de développer des applications interactives très facilement en 2D, un peu moins en 3D. Son utilisation dans la communauté des "makers" fait que de nombreux exemples sont disponibles sur internet.
@@ -46,7 +46,7 @@ Une grande librairie d'exemples en OpenSource est disponible [ici](https://www.o
 Même si des moteurs OpenGL comme [Ogre3D](https://www.ogre3d.org/) ou [Irrlicht](http://irrlicht.sourceforge.net/) peuvent parfois se substituer à des moteurs de jeu, leurs fonctionnalités sont quasi-systématiquement moins abouties, et leurs utilisation "déconseillée" sauf pour des besoins très spécifiques. Dans le doute, à éviter donc.
 
 ### 2.2 - Frameworks Web
-Openframeworks et Processing permettent tous les deux des exports vers le web grâce à EmScriptem et p5.js (Openframeworks étant plus optimisé à ce niveau-ci). Cependant, leur utilisation n'est pas des plus simples, et d'autres librairies et modules permettent de mettre en place rapidement des applications 3D dans le navigateur (et donc accessibles sans installation), et interfacées avec toutes les fonctionnalités propres à Javascript et HTML.
+Openframeworks et Processing permettent tous les deux des exports vers le web grâce à [EmScriptem](https://github.com/kripken/emscripten) et [p5.js](https://p5js.org/) (Openframeworks étant plus optimisé à ce niveau-ci). Cependant, leur utilisation n'est pas des plus simples, et d'autres librairies et modules permettent de mettre en place rapidement des applications 3D dans le navigateur (et donc accessibles sans installation), et interfacées avec toutes les fonctionnalités propres à Javascript et HTML.
 
 Il est à noter qu'Unreal Engine et Unity permettent également des exports au format html, mais ne sont pas les plus pertinents pour des applications "légères".
 
@@ -54,5 +54,9 @@ Il est à noter qu'Unreal Engine et Unity permettent également des exports au f
 Deux librairies basées purement sur Javascript, mais qui peuvent permettre des rendus web très rapides, légers, et complètement intégrés à des pages html. Solution "native" donc.
 
 #### Blend4Web
-Blend4Web est un SDK basé sur blender et javascript, et permet très facilement d'exporter une scène depuis blender vers un format html (en "un clic"), et de lui rajouter une couche d'interaction grâce à son API javascript. Solution idéale pour passer rapidement d'une scène 3D à une application en ligne, le déploiement étant également très facile.
+[Blend4Web](https://www.blend4web.com/en/) est un SDK basé sur blender et javascript, et permet très facilement d'exporter une scène depuis blender vers un format html (en "un clic"), et de lui rajouter une couche d'interaction grâce à son API javascript. Solution idéale pour passer rapidement d'une scène 3D à une application en ligne, le déploiement étant également très facile. Cf [doc développeur](https://github.com/NumeroSU/online-application/blob/master/docs/dev.md) de l'application "numero" pour référence.
+
+[![test](https://raw.githubusercontent.com/ISCDdocs/onlineMeshViewer/master/screenshot.png)](https://github.com/ISCDdocs/onlineMeshViewer)
+
+[![test](https://raw.githubusercontent.com/NumeroSU/online-application/master/screenshot.png)](https://github.com/NumeroSU/online-application)
 
