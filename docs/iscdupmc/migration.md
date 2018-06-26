@@ -14,6 +14,8 @@ Une fois un compte créé, s'assurer d'avoir accès à l'interface d'administrat
 
 Si le thème est un thème "fait maison", il faudra alors le réinstaller. Pour le site iscd.upmc.fr, se référer au [dépot github correspondant](https://github.com/ISCDdocs/wordpressISCD) et aux [instructions associées](https://iscddocs.github.io/docs/iscdupmc/theme.html).
 
+Enfin, pour s'assurer qu'il n'y ait pas de pages en double et que les images, pdf, documents... uploadés via wordpress correspondent aux bonnes versions, il vaut mieux supprimer toutes les pages, tous les posts et tous les médias depuis l'espace d'administration de wordpress du *nouveau site*.
+
 ## 2 - Export des données depuis l'ancien site
 Lorsque la migration est prête à être effectuée, il faut faire un export depuis l'installation wordpress de l'ancien site: menu -> tools -> Export -> Wordpress -> export all content:
 
@@ -25,6 +27,8 @@ Un fichier .xml est alors téléchargé.
 Si ce n'est pas déjà fait, recréer les utilisateurs de la nouvelle installation de wordpress. Il faudra s'assurer que les mots de passe correspondent aux anciens en testant avec un utilisateur (voir avec l'administrateur système si la manip a été faite), ou dans le cas contraire regénérer un mot de passe pour chaque utilisateur, ce qui leur enverra un mail de mise à jour.
 
 ## 4 - Import du fichier .xml
+Encore une fois, avant d'importer les données sur le nouveau serveur, mieux vaut s'assurer d'avoir supprimé posts, pages et médias de la nouvelle installation. Cela permettra d'éviter les doublons et d'éviter d'avoir des pages sur le nouveau site qui ont été supprimées sur l'ancien.
+
 Sur la page d'administration du nouveau site, réimporter le fichier xml téléchargé à l'étape précédente: menu -> tools -> Import -> run wordpress importer:
 
 ![](https://www.elegantthemes.com/blog/wp-content/uploads/2014/01/screenshot3.jpg)
