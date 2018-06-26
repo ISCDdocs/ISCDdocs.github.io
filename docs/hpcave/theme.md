@@ -3,6 +3,8 @@ Le thème utilisé est une (très légère) adaptation du thème [Education base
 
 Les fichiers du thème sont sauvegardés dans [ce dépot](https://github.com/ISCDdocs/wordpressHPCAVE).
 
+**Pour la migration du site**, suivre les [instructions disponibles ici](/docs/iscdupmc/migration.md)
+
 ### 1 - Réinstallation
 Pour réinstaller ce thème, il "suffit" de se déplacer sur l'installation wordpress dans le dossier **/var/www/html/wp-content/themes** et de taper la commande:
 ```
