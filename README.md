@@ -3,6 +3,7 @@ Contient de la documentation et les codes/sauvegardes pour la salle de visualisa
 
 ### Salle de visualisation
 Documentation et sauvegardes pour la salle de visualisation de l'ISCD:
+* [Frameworks 3D et moteurs de jeu](docs/visu/3dengine.md)
 * [Utilisation "quotidienne"](docs/visu/usageQuotidien.md)
 * [Utilisation avec les serveurs de calcul](docs/visu/mesuVisu.md)
 * [Administration de la machine](docs/visu/administration.md)
